@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+#table {
+  font: 100% sans-serif
+  border-collapse: collapse
+  empty-cells: show
+  border: 1px solid #7a7
+}
+#table th {
+  text-align: left
+}
+</style>
+</head>
+<body>
+
+<form action="Join" method="post">
+<table id="table" border="1" cellpadding="0" cellspacing="0" width="400" >
+<tr>
+<th >이름</th>
+<td><input name="name"></td>
+</tr>
+<tr>
+<th>성별</th>
+<td>
+<select name="gender">
+<option value="male">남자</option>
+<option value="female">여자</option>
+</select>
+</td>
+</tr>
+<tr>
+<th>아이디</th>
+<td><input name="id"></td>
+</tr>
+<tr>
+<th>비밀번호</th>
+<td><input type="password" name="pwd"></td>
+</tr>
+<tr>
+<th>비밀번호 확인</th>
+<td><input type="password" name="comfirm"></td>
+</tr>
+<tr>
+<th>주소</th>
+<td><input name="address"></td>
+</tr>
+<tr>
+<th>전화번호</th>
+<td><input name="telNumber"></td>
+</tr>
+<tr>
+<th>이메일주소</th>
+<td><input name="eMail"></td>
+</tr>
+<tr>
+<th>취미</th>
+<td>
+<input name="hobby" type="checkbox" value="soccer">축구
+<input name="hobby" type="checkbox" value="baseball">야구
+<input name="hobby" type="checkbox" value="basketball">농구<br>
+<input name="hobby" type="checkbox" value="swimming">수영
+<input name="hobby" type="checkbox" value="game">게임
+<input name="hobby" type="checkbox" value="reading">독서<br>
+<input name="hobby" type="checkbox" value="music">음악
+<input name="hobby" type="checkbox" value="tv">TV
+<input name="hobby" type="checkbox" value="movie">영화<br>
+<input name="hobby" type="checkbox" value="theater">연극
+<input name="hobby" type="checkbox" value="musical">뮤지컬
+<input name="hobby" type="checkbox" value="exhibition">전시
+</td>
+</tr>
+<tr>
+<td colspan="2"><input type="submit" value="회원가입"></td>
+</tr>
+</table>
+</form>
+</body>
+</html>
